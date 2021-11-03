@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "resource-timeline-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resourceTimelineWp/ResourceTimelineWpWebPart.js",
+          "manifest": "./src/webparts/resourceTimelineWp/ResourceTimelineWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ResourceTimelineWpWebPartStrings": "lib/webparts/resourceTimelineWp/loc/{locale}.js"
+  }
+}
